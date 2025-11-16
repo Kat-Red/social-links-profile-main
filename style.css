@@ -34,10 +34,9 @@ h2{
 	margin: 0;
 }
 
-h3{
+h5{
 	color: var(--GREEN);
 	font-weight: 600;
-	font-size: 12px;
 }
 
 p{
@@ -86,6 +85,7 @@ section{
 	border-radius: 2%;
 }
 }
+
 
 
 
