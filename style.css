@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap")
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:content-box;
+}
+
+img{
+	display:block;
+	border-radius: 500px;
+	margin: auto;
+	width: 30%;
+	padding: 20px;
+}
+
+:root{
+	--WHITE: hsl(0, 0%, 100%);
+	--GREEN: hsl(75, 94%, 57%);
+	--GREY700: hsl(0, 0%, 20%);
+	--GREY800: hsl(0, 0%, 12%);
+	--GREY900: hsl(0, 0%, 8%);
+}
+
+body{
+	background-color: var(--GREY900);
+	color: var(--WHITE);
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+}
+
+h2{
+	font-weight: 600;
+	margin: 0;
+}
+
+h5{
+	color: var(--GREEN);
+	font-weight: 600;
+}
+
+p{
+	font-weight: 400;
+	color: var(--WHITE);
+}
+
+main{
+	/*min-height: 80vh;*/
+	min-width: 250px;
+	max-width: 25%;
+	/*max-height: 80vh;*/
+	/*display: grid;*/
+	/*justify-content: center;*/
+	margin: 5vh auto;
+	text-align: center;
+	background-color: var(--GREY800);
+	padding: 20px;
+	border-radius: 2%;
+}
+
+section{
+	display: grid;
+}
+
+.socials a{
+	background-color: var(--GREY700);
+	color: var(--WHITE);
+	text-decoration: none;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-radius: 8px;
+	width: 100%;
+	font-weight: 600;
+}
+
+.socials a:hover{
+	background-color: var(--GREEN);
+	color: hsl(0, 0%, 8%);
+}
+
+
+@media screen and (max-width:1023px) and (min-aspect-ratio:7/4){
+	main{
+	/*min-height: 80vh;*/
+	min-width: 80vw;
+	/*max-width: 25%;*/
+	/*max-height: 80vh;*/
+	/*display: grid;*/
+	/*justify-content: center;*/
+	margin: 5vh auto;
+	text-align: center;
+	background-color: var(--GREY800);
+	padding: 20px;
+	border-radius: 2%;
+}
+}
+
+
